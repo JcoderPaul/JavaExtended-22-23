@@ -31,11 +31,11 @@ public class OuterStaticInit {
      {
          class LocalInit{
             LocalInit(){
-            System.out.println("From static iniz");
+                 System.out.println("From static iniz");
+            }
          }
-     }
-     LocalInit localInit = new LocalInit();
-     System.exit(0);
+         LocalInit localInit = new LocalInit();
+         System.exit(0);
      }
 
      public static void main(String[] args) {
